@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="USM Aautomation Test Suit">
+
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+</listeners>
+
+  <test name="TestNewUSM">
+    <classes>
+      <class name="com.usm.qa.testcases.LoginPageTest"/>
+      <class name="com.usm.qa.testcases.HomePageTest"/>  
+    </classes>
+  </test> <!-- TestNewUSM -->
+</suite> <!-- Suite -->
